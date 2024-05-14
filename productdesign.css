@@ -1,0 +1,127 @@
+body {
+    background-image: url("productsbg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header {
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    font-style: Georgia;
+    margin-left: 3%;
+    color:#705f4a;
+}
+.link {
+    font-size: 15px;
+    padding-top: 10px;
+    margin-left: 75%;
+}
+.link a{
+    color: #a69a78;
+    padding: 13px 15px;
+    text-decoration: none;
+    }
+.title {
+    font-size: 20px;
+    text-align: center;
+    color: beige;
+}
+.product {
+    color: beige;
+	padding-top: 3%;
+	text-align: center;
+}
+.tables {
+    text-align: center;
+    border: 0;
+    padding: 0; 
+    width: 100%;
+}
+.image {
+    height: 15em;
+    border: 2px solid #555;
+}
+.price {
+    color: grey;
+    font-size: 18px;
+}
+.button {
+    width: 100%;
+    padding: 12px;
+    color: white;
+    background-color: #28210d;
+    text-align: center;
+    cursor: pointer;
+    width: 30%;
+    font-size: 15px;
+    border-radius: 20px;
+} 
+.text {
+    color: antiquewhite;
+    padding-left: 5em;
+}
+.hrdesign {
+    margin-top: 5%;
+}
+.column {
+    float: left;
+    padding: 10px;
+    margin-top: 3%;
+}
+.column.side {
+    width: 20%;
+}
+.column.middle {
+    width: 20%;
+    margin-top: 5%;
+}
+.row::after {
+    content: "none";
+    display: table;
+    clear: both;
+}
+input[type=text], select, textarea {
+    width: 55%;
+    padding: 10px;
+    border: 1px solid #e8e1b0;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: #bdab70;
+    color: rgb(244, 246, 228);
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .container {
+    color: #e8e1b0;
+    margin-top: 8%;
+    border-radius: 5px;
+    padding: 10px;
+    opacity: 50%;
+  }
+.footer.text {
+    padding-right: 30%;
+    padding-top: 0%;
+    color: antiquewhite;
+    font-size: 20px;
+}
+.socialmedia {
+    text-align: center;
+    height: 40px;
+    padding-left: 5px;
+    margin-left: 80%;
+}
+.footer {
+    color:bisque;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+  }
